@@ -20,6 +20,7 @@ function addElementToEndOfArray(chocolateBars,foo) {
 function destructivelyAddElementToEndOfArray(chocolateBars,foo) {
   const chocolateBars = []
   const chocolateBarsNew = [chocolateBars,..."foo"]
+  return chocolateBarsNew;
 }
 
 
